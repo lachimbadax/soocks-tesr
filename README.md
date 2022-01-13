@@ -5,7 +5,7 @@ Test TCP and UDP of socks5 server
 Install via [nami](https://github.com/txthinking/nami)
 
 ```
-$ nami install github.com/brook-community/testsocks5
+$ nami install testsocks5
 ```
 
 Test socks5
