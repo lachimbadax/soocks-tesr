@@ -15,7 +15,7 @@ if (args.h || args.help || args.v || args.version || !args.s) {
 }
 
 var l = args.s.split(":");
-if (l.length != 2 || isNaN(new Number(l[1]))) {
+if (l.length != 2 || isNaN(parseInt(l[1]))) {
     console.log("Invalid socks5 server");
     Deno.exit(0);
 }
